@@ -77,7 +77,7 @@ img {
 .navigation-list-item {
     display: block;
     position: relative;
-    color: #404bbf;
+    color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -92,7 +92,7 @@ img {
     color: #404bbf;
 }
 
-.navigation-list-item::after {
+.navigation-list-item.current::after {
     position: absolute;
     content: "";
     background-color: #404bbf;
